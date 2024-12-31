@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Nepal Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0545
+TZOFFSETTO:+0545
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0545
+TZOFFSETTO:+0545
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Prasanna Tuladhar:mailto:Prasanna.Tuladhar@uib.no
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=FALSE;CN=Milan Rok
+ aya:mailto:milanrokaya2014@gmail.com
+DESCRIPTION;LANGUAGE=en-US:This meeting was scheduled from the bookings pag
+ e of Prasanna Tuladhar.\n\nUse the following link to reschedule or cancel 
+ this meeting:\nManage meeting<https://outlook.office.com/bookwithme/user/5
+ 379ea0c32d543669c1aa8110daeeeba@uib.no/booking/XotSyLuhwkqX03-_m311rA2?ano
+ nymous>\n\n_______________________________________________________________
+ _________________\nMicrosoft Teams Need help?<https://aka.ms/JoinTeamsMeet
+ ing?omkt=en-US>\nJoin the meeting now<https://teams.microsoft.com/l/meetup
+ -join/19%3ameeting_OWRmM2U1YjMtYTJiMi00MTRhLWE4MGItY2I3ZTAxN2JhMDAy%40thre
+ ad.v2/0?context=%7b%22Tid%22%3a%22648a24bc-a98d-4025-9c60-48c19a142069%22%
+ 2c%22Oid%22%3a%22a55846c9-e00e-4a59-9fa1-cec2bc0a085f%22%7d>\nMeeting ID: 
+ 387 358 207 599\nPasscode: hX9Gr9mP\n________________________________\nFor
+  organizers: Meeting options<https://teams.microsoft.com/meetingOptions/?o
+ rganizerId=a55846c9-e00e-4a59-9fa1-cec2bc0a085f&tenantId=648a24bc-a98d-402
+ 5-9c60-48c19a142069&threadId=19_meeting_OWRmM2U1YjMtYTJiMi00MTRhLWE4MGItY2
+ I3ZTAxN2JhMDAy@thread.v2&messageId=0&language=en-US>\n____________________
+ ____________________________________________________________\n
+UID:040000008200E00074C5B7101A82E00800000000AE9EC5CD6B5BDB01000000000000000
+ 01000000025BB635E1E9DBD40A1DC0B2EE4993EB3
+SUMMARY;LANGUAGE=en-US:Milan Rokaya - Web developer interview
+DTSTART;TZID=Nepal Standard Time:20250103T153000
+DTEND;TZID=Nepal Standard Time:20250103T160000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20241231T100733Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:2123168686
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_OWRmM2U1YjMtYTJiMi00MTRhLWE4MGItY2I3ZTAxN2JhMDAy%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22648a24bc-a98d-4025-9c60-48c19a142069%22%2c%22O
+ id%22%3a%22a55846c9-e00e-4a59-9fa1-cec2bc0a085f%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/648a24bc-a98d-4025-9c60-48c19a142069/a55846c9-e00e-4a59-9fa1-c
+ ec2bc0a085f/19_meeting_OWRmM2U1YjMtYTJiMi00MTRhLWE4MGItY2I3ZTAxN2JhMDAy@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_OWRmM2U1YjMtYTJiMi00MTR
+ hLWE4MGItY2I3ZTAxN2JhMDAy@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LATITUDE:0
+X-MICROSOFT-LONGITUDE:0
+X-MICROSOFT-ACCURACY:0
+X-MICROSOFT-ALTITUDE:0
+X-MICROSOFT-ALTITUDEACCURACY:0
+X-MICROSOFT-LOCATIONS:[{"DisplayName":""\,"LocationAnnotation":""\,"Locatio
+ nUri":""\,"Latitude":0.0\,"Longitude":0.0\,"Accuracy":0.0\,"Altitude":0.0\
+ ,"AltitudeAccuracy":0.0\,"LocationStreet":""\,"LocationCity":""\,"Location
+ State":""\,"LocationCountry":""\,"LocationPostalCode":""\,"LocationFullAdd
+ ress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

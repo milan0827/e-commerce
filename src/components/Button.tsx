@@ -4,7 +4,7 @@ import { cva, VariantProps } from "class-variance-authority";
 export type ButtonVariantProps = VariantProps<typeof button>;
 
 const button = cva(
-  "rounded-md py-1 px-4 flex items-center justify-center gap-4 border-2 border-transparent transition-all duration-400",
+  "rounded-md py-1 px-2 flex items-center justify-center gap-4 border-2 border-transparent transition-all duration-400 text-sm",
   {
     variants: {
       variant: {
@@ -15,7 +15,7 @@ const button = cva(
       },
       size: {
         large: "w-full text-sm",
-        small: "w-32 px-2",
+        small: "w-28 px-2",
         medium: "",
       },
     },
